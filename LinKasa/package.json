@@ -1,0 +1,46 @@
+{
+    "private": true,
+    "name": "my-nextron-app",
+    "description": "My application description",
+    "version": "1.0.0",
+    "author": "Yoshihide Shiono <shiono.yoshihide@gmail.com>",
+    "main": "app/background.js",
+    "scripts": {
+        "dev": "nextron",
+        "build": "nextron build",
+        "postinstall": "electron-builder install-app-deps"
+    },
+    "dependencies": {
+        "@mui/icons-material": "^5.14.18",
+        "@mui/lab": "^5.0.0-alpha.153",
+        "@mui/x-date-pickers": "^6.18.2",
+        "chroma-js": "^2.4.2",
+        "date-fns": "^2.30.0",
+        "dayjs": "^1.11.10",
+        "electron-serve": "^1.1.0",
+        "electron-store": "^8.1.0",
+        "firebase": "^10.6.0",
+        "react-chartjs-2": "^5.2.0",
+        "react-github-btn": "^1.4.0",
+        "react-perfect-scrollbar": "^1.5.8",
+        "react-router-dom": "^6.20.0",
+        "recharts": "^2.10.1",
+        "stylis-plugin-rtl": "^2.1.1"
+    },
+    "devDependencies": {
+        "@emotion/cache": "^11.11.0",
+        "@emotion/react": "^11.11.1",
+        "@emotion/server": "^11.11.0",
+        "@emotion/styled": "^11.11.0",
+        "@mui/material": "^5.14.10",
+        "@types/node": "18.19.54",
+        "@types/react": "18.3.11",
+        "electron": "^26.2.2",
+        "electron-builder": "^24.6.4",
+        "next": "^14.0.3",
+        "nextron": "^8.12.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "typescript": "5.6.2"
+    }
+}

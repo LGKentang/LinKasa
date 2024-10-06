@@ -1,0 +1,27 @@
+export const allRoles = [
+    "Customer Service Manager",
+    "Information Desk Staff",
+    "Lost and Found Staff",
+    "Check-in Staff",
+    "Gate Agents",
+    "Air Operations Manager",
+    "Flight Operations Manager",
+    "Ground Handling Manager",
+    "Ground Handling Staff",
+    "Landside Operations Manager",
+    "Maintenance Manager",
+    "Maintenance Staff",
+    "Customs and Border Control Officers",
+    "Baggage Security Supervisor",
+    "Baggage Security Staff",
+    "Cargo Manager",
+    "Logistic Manager",
+    "Fuel Manager",
+    "Cargo Handlers",
+    "Civil Engineering Manager",
+    "Airport Director/CEO",
+    "Chief Financial Officer (CFO)",
+    "Chief Operations Officer (COO)",
+    "Chief Security Officer (CSO)"
+  ];
+  
